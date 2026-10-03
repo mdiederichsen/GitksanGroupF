@@ -1,0 +1,468 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+% \usepackage[backend=biber,
+% 		style=citations/lsalike,
+% 		useprefix=true,
+% 		ibidtracker=false,
+% 		firstinits=false,
+% 		giveninits=false
+% 		uniquename=mininit,
+% %		indexing=cite,
+% 		doi,
+% 		isbn,
+% 		%issn,
+% 		scacronym,
+% 		jnlcolonpages,
+% 		commathesis,
+% % 		natbib
+% 	]{biblatex} % bibliography generation
+
+\usepackage{subfiles} % subfiles
+
+\usepackage{fontspec} % unicode characters
+\setmainfont{Linux Libertine}% [ItalicFont = lmr]
+\usepackage{tipa} % typing IPA
+\usepackage{graphicx} % images
+\usepackage{amsmath, amssymb} % math
+\usepackage{unicode-math} % more math, namely \Eulerconst
+\usepackage{leipzig} % glossing abbreviations
+\usepackage[linguistics]{forest} % trees
+\usepackage{gb4e} % glossed examples
+\usepackage[expex]{nnext} % \nextx, etc. example reference commands 
+\usepackage{stmaryrd} % denotation brackets
+\usepackage{float} % force graphics positioning
+\usepackage{hyperref} % figure reference linking
+\usepackage[compress]{cleveref} % figure referencing
+\usepackage{csquotes} % close quotes
+\usepackage{longtable} % tables across pages
+\usepackage{booktabs} % hopefully nicer tables?
+\usepackage{lscape} % rotated tables
+\usepackage{parskip} % paragraph spacing
+\usepackage{ulem} % strikethrough text
+
+%% continue adding here!
+\newleipzig{cn}{cn}{common noun connective}
+\newleipzig{pn}{pn}{proper noun connective}
+\newleipzig{i}{i}{Series I person marker clitic}
+\newleipzig{ii}{ii}{Series person marker II suffix}
+\newleipzig{iii}{iii}{Series III person marker pronoun}
+\newleipzig{prep}{prep}{preposition}
+\newleipzig{prosp}{prosp}{prospective}
+\newleipzig{val}{val}{valency adjuster}
+\newleipzig{t}{t}{Big T}
+\newleipzig{hum}{hum}{hum}
+\newleipzig{anim}{anim}{animal}
+\newleipzig{attr}{attr}{attributive}
+\newleipzig{sx}{sx}{subject extraction}
+\newleipzig{cnt}{cnt.amt}{count amount}
+
+
+\MakeOuterQuote{"}
+
+\newcommand{\tsb}{\textsubbar} % combining macron below (from TIPA)
+    % can also type directly from First Voices or SIL keyboards
+
+% \addbibresource{[...].bib}
+
+\title{LING 431/531 Gitksan Glossed Data}
+\author{Group F -- Andrew, Matthias, Zahra}
+\date{Field Methods 2026-2027}
+
+\begin{document}
+
+\maketitle
+
+\section{Elicitation 2026.09.24}
+
+\begin{tabular}{ll}
+\textbf{Date:} & 2026.09.24 \\
+\textbf{Consultant:} & Hector Hill / Gy'ax \\
+\textbf{Elicitors:} & Zahra, Andrew \\
+\textbf{Location:} & TFS elicitation room \\
+\textbf{Context:} & First elicitation for LING 431/531 Field Methods \\
+\textbf{Audio:} & \texttt{September\_25\_2026\_HH.WAV} \\
+\end{tabular}
+
+\subsection{[0:00-14:30]}
+
+[4:30]: Discussion of the pronunciation of \textit{we'y}/\textit{wa'y} -- after the glottal is a bit hard to hear but sounds like the unvoiced vowel that Henry had mentioned. 
+
+[4:45]: Not positive that suffix is \textit{'y}. maybe an allomorph thereof? Note for [4:55] also applies here, as in \url{https://www.firstvoices.com/gitsenimx/search?q=anookii%27y&domain=both&types=word%2Cphrase%2Csong%2Cstory}.
+
+Note from the future: the \textit{\tsb{g}} in \textit{anoo\tsb{g}i'y} sometimes sounds like a \textit{\tsb{x}}. This is especially clear at [7:32], where Hector pronounces it both ways back to back. [Z: also hearing a bit of labialization on this consonant possibly; but not on the root in isolation as in 5:23.] 
+
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y \\
+    anoo\tsb{k}-i-'y \\
+    like-\Tr{}-\Fsg.\Ii{} \\
+    `I like ...'
+\end{exe}
+
+[4:55]: There is one entry in first voices of \textit{ekstedinii'y} `I like\dots' (\url{https://www.firstvoices.com/gitsenimx/search?q=ekstedinii%27y&domain=both&types=word%2Cphrase%2Csong%2Cstory}). 
+
+Some digging reveals that this \textit{ii} is what Henry's grammar (sec. 3.3.2, p. 44) describes as a \textbf{transitive vowel}, which is present only with independent transitive verbs, acting as a ``inflectional marker of transitivity''. Whether this should be written as one vowel (as Henry glosses it) or two (as in the dictionary) I am not sure. I tentatively choose the former.
+\begin{exe}
+    \ex \glll ekstedini'y (anaax) tun \\
+    ekstedin-i-'y (anaax) tun \\
+    like-\Tr{}-\Fsg.\Ii{} (bread) this \\
+    `I like this (bread)'
+\end{exe}
+
+[5:10]:
+
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y 'nisi'm \\
+    anoo\tsb{k}-i-'y 'nisi'm\\
+    like-\Tr{}-\Fsg.\Ii{} \Spl{}.\Iii{} \\
+    `I like you guys'
+\end{exe}
+
+[5:23]: \textit{anoo\tsb{k}} also means `let/allow'.
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y dim yeen \\
+    anoo\tsb{k}-i-'y dim yee-n\\
+    allow-\Tr{}-\Fsg.\Ii{} \Prosp{} walk-\Ssg{}.\Ii{} \\
+    `I let you go/leave'
+\end{exe}
+
+[5:27]: 
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y 'niin \\
+    anoo\tsb{k}-i-'y 'niin \\
+    like-\Tr{}-\Fsg.\Ii{} \Ssg{}.\Iii{} \\
+    `I like you'
+\end{exe}
+
+[5:33]: I very strongly hear a \textit{d} after \textit{siipin}. While \textit{siipin} is not included in the brief lists of Big-T verbs in Rigsby (1986:340) or Hunt (1993:237), I see no other explanation for this, since the root is pretty clearly \textit{siipin}. May want to ask Michael about this.
+
+Consultant comment: refers to \textit{siipintxw} `lover/friend' (see [5:53]).
+\begin{exe}
+    \ex \glll siipin-d-i-'y 'niin \\
+    siipin-t-i-'y 'niin \\
+    like-\T{}-\Tr{}-\Fsg.\Ii{} \Ssg{}.\Iii{} \\
+    `I like/love you'
+\end{exe}
+
+[5:53]: I assume \textit{en-} is the Gigeenix version of nominalizer \textit{an-} in Henry's grammar (sec. 2.2.3.2, p. 5). Hector translates \textit{en-} as `my', but I could find absolutely no indication of a prenominal possessive with this form. If anything, there is a possessive use of \textit{-(t)xw} mentioned in Henry's grammar (p. 3, fn 3). I don't know what to make of this, but I don't want to write off Hector's intuitions.
+
+Hector also mentions that \textit{ensiipintxw} is difficult to translate to English, as it spans multiple uses.
+
+\begin{exe}
+    \ex \glll ensiipintxw \\
+    en-siipin-txw \\
+    \Nmlz{}-love-\Val{} \\
+    `My(?) friend/lover'
+\end{exe}
+
+[Z: \(\wedge\) I think I do hear the voiceless -'y suffix here, hence the `my' (and I think that's right about the \Nmlz).]
+
+[7:38]: This is extremely difficult for me to transcribe. The sentence is `I like what you guys are doing (with Gitksan)'. Two things are fairly certain: (1) this contains a headless RC (at least per the translation) (2) it uses a Series \textsc{ii} subject suffix \textit{-si'm}, which is characteristic of object extraction (Henry sec. 4.3.3.3, p. 81). To address (1), I chose to include a \textit{=hl}, which can select a RC as per Henry's grammar (p.50). What's problematic is that the only potential \textit{=hl} I hear is after the embedded predicate \textit{yuk} `to do smthng', while it normally appears before the predicate from which the subject was extracted (cf. ex (107) in Henry's grammar). What's more, \textit{=hl} is a clitic, so it makes no sense that the \textit{-si'm} suffix would follow it. I also don't hear the full pronoun \textit{'nisi'm} here. 
+
+Tldr; this transcription is definitely wrong, but I don't know what the correct one is. 
+
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y yuhlsi'm (ihl gitksenim\tsb{x}) \\
+    anoo\tsb{k}-i-'y yuk-hl-si'm (ihl gitksenim\tsb{x})\\
+    like-\Tr{}-\Fsg.\Ii{} do-\Cn{}-\Spl{}.\Ii{} (for Gitksenim\tsb{x})\\
+    `I like what you guys are doing (with/for the Gitksan language)'
+\end{exe}
+
+[7:53]: Andrew's sentence, confirmed by Hector. Couldn't figure out what \textit{\tsb{g}enu} means, but \textit{hloxsa \tsb{g}enu gwiikw} is a compound meaning September, literally `month when the groundhogs get ready for winter' (see First Voices).
+
+At [8:25] Hector translates \textit{hloxsa} as `month of'. I don't attempt to break the compound down, but the \textit{a} in \textit{hloxsa} could potentially be an attributive marker (\Attr{}). Henry's grammar (sec. 2.2.4.1, p.8) claims that \Attr{} can only appear on adjectives, whereas \textit{hloxs} looks like a noun. However, on p. 3, Henry also says ``The attributive suffix \textit{-m/-a} which links modifiers to their modifiees can also attach to nouns (since nouns can modify other nouns)'', so there is an inconsistency here.
+
+\begin{exe}
+    \ex \glll anoo\tsb{g}i'y hloxsa \tsb{g}enu gwiikw \\
+    anoo\tsb{k}-i-'y hloxsa \tsb{g}enu gwiikw \\
+    like-\Tr{}-\Fsg.\Ii{} month ??? groundhog\\
+    `I like September [=the month when the groundhogs get ready for winter]'
+\end{exe}
+
+[Scanned dictionary, p.65 : \textit{Hloxsa g̱ennuu gwiikw} `September'. FV says `month when the groundhogs get ready for winter,' with spelling \textit{g̱enu} as here (also in Lantz and Turner (2003) ethnobiology paper with the dictionary spelling).]
+
+[8:45]: Hector says that \textit{gwiikw} is also an old term for `money', but now \textit{dala} is used more often.
+
+[13:42]: \textit{legim anaax} is `flour', but probably dry flour ([14:13] in audio). \textit{anaax} is `bread', I don't know what meaning \textit{legim} contributes. [Scanned dictionary:  gigeenix \textit{lagim} / gyeets \textit{ligem}.] Also, I assume the distinct \textit{i} in \textit{yelihl} is a transitive marker, but it could also be epenthesizing a vowel to avoid a \textit{lhl} cluster?
+
+Also, at [14:00] Hector says that ``you are just saying you are mixing flour'', so this likely isn't an imperative construction.
+
+\begin{exe}
+    \ex \glll yelihl legim anaax \\
+    mix-i=hl legim anaax \\
+    like-\Tr{}-\Cn{} flour \\
+    `You mix flour'
+\end{exe}
+
+
+\subsection{[14:30-?]}
+Note we don't have to keep this subsection structure, but am using it to divide transcription times for now.
+
+\subsection{[40:00-53:53]}
+
+[40:50]: \textbf{Context:} \textit{We just finished picking berries, and we want to split it evenly to take back home.} 
+
+Is, e.g., take.\Pl{} a good way to transcribe plural predicates? Also, Henry glosses \textit{-t} as \textsc{3.ii}, but I believe \Tsg{}.\Ii{} is more accurate?
+
+\begin{exe}
+    \ex \glll dim mehla do\tsb{k}'m sto'ot \\
+    dim mehla do\tsb{k}-'m sto'o-t \\
+    \Prosp{} each take.\Pl{}-\Fpl{}.\Ii{} half-\Tsg{}.\Ii{}\\
+    `We'll take half each'
+\end{exe}
+
+[41:53]: These were presented by Zahra, second and third were (audibly) confirmed by Hector, not sure about the first.
+
+\begin{exe}
+    \ex 
+    \begin{xlist}
+    \item \glll k'i'y hla\tsb{k}'aphl  \\
+    k'i'y hla\tsb{k}'ap=hl \\
+    one piece=\Cn{}\\
+    `One piece [of bread]'
+    
+    \item \glll k'eekw \tsb{g}a\tsb{x}   \\
+    k'eekw \tsb{g}a\tsb{x} \\
+    one rabbit \\
+    `One rabbit'
+
+    \item \glll ky'ulhl gyet   \\
+    ky'ul=hl gyet \\
+    one=\Cn{} man \\
+    `One man/person'
+    \end{xlist}
+\end{exe}
+
+[42:48]: \textit{wilk'yep} shows up in numbers logically multiplied by 10 (two digit numbers and one hundred), but whether it is morphologically transparent I am not sure. It clearly contains \textit{k'yep} `ten', but I am unsure whether \textit{wil-} is a morpheme or \textit{wilk'yep} is simply lexicalized. I am also unsure how I'd gloss this, so tentatively using ``-ty'' (as in twen-ty, thir-ty, etc.)
+
+\begin{exe}
+    \ex \glll k'yep wilk'yep \\
+    k'yep wilk'yep \\
+    ten ``-ty''\\
+    `One hundred'
+\end{exe}
+
+[43:00]: Hector: ``We don't use all those numbers, when I was growing up we were told [very unsure about this transcription, so not glossing for now] \textit{k'eyp xbul k'ap xwsdins} `fifteen [different animacy bases]'.
+
+Not sure about \textit{wildekhlxw}. First Voices writes ``10 x 100 = 1000'', but I don't see components of ten or one hundred in here.
+
+\begin{exe}
+    \ex \glll k'i'y wildekhlxw \\
+    k'i'y wildekhlxw \\
+    one thousand\\
+    `One thousand'
+\end{exe}
+
+[43:24]: ``And that was as far as we were told, because for us, when we say [gloss below, at 43:32] that means we're comparing. So in my family, we were never allowed to do the numbers. When I started the numbers in 2011 here to try to explain what the numbers are. When they started going past five, I was like ``what's that?''. Even though I heard it, we were never allowed to use it. Comparison means that you're better than, or you're looking down at others, or you put yourself down. So the numbers that you're saying, they're new to me, but to others, they're comfortable in using it. So I could say some things about numbers, but if you ask me if I use them, no.''
+
+I am not entirely sure what precedes \textit{gupdiit}, it sounds most like \textit{diil}, but I assume it may be focus marking (\textit{dii}) agreeing with the embedded subject (\textit{-t}). Examples (187), (188) in Henry's grammar both have \textit{dii} at the object extraction site, so may be somehow systematic. The last row in \url{https://git-grammar.vercel.app/docs/grammar/basics/pronouns} also has a similar-looking construction.
+
+\begin{exe}
+    \ex \glll gye'a \tsb{g}abiihl diit gupdiit \\
+    gye'a \tsb{g}abii=hl dii-t gup-diit \\
+    look how.many=\Cn{} \Foc{}-\textsc{3}.\I{} eat-\Tpl{}.\Ii{}\\
+    `Look at all of what they're eating.'
+\end{exe}
+
+
+[45:48]: \textbf{Context (abridged)}: \textit{Conservationists want to do a precise count of moose in the area. They come up with a number 1,312. How could we say that?}
+
+[48:12]:
+
+\begin{exe}
+    \ex \glll k'i'y wildekhlxw \tsb{x}adaa \\
+    k'i'y wildekhlxw moose \\
+    one thousand moose\\
+    `One thousand moose'
+\end{exe}
+
+[49:40]: Hector: ``Without the \textit{ii} you are saying one thousand one hundred, instead of saying one thousand \textbf{and} one hundred. If you put \textit{ii} that would separate them.''
+
+This judgement is tentative. Hector is uncertain whether 1,100 is good with \textit{ii} or not, and it is not yet clear how to actually form 1,100.
+
+
+\begin{exe}
+    \ex \glll k'i'y wildekhlxw k'yep wilk'yep \\
+    k'i'y wildekhlxw k'yep wilk'yep \\
+    one thousand ten ``-ty''\\
+    `One thousand one hundred [=1,100]'
+\end{exe}
+
+[52:33]: At [53:23], Hector says that when putting it this way we have to put the \textit{ii} in it, because we are saying ``one thousand and one hundred and five''.
+\begin{exe}
+    \ex \glll k'i'y wildekhlxw k'yep wilk'yep xwsdins \\
+    k'i'y wildekhlxw k'yep wilk'yep ii xwsdins \\
+    one thousand ten ``-ty'' and five\\
+    `One thousand one hundred and five [=1,105]'
+\end{exe}
+
+\subsection{[53:53-end]}
+
+Ways to say `the cat meowed' / `the cat said meow'.
+
+[54:10]:
+\begin{exe} \ex 
+    \glll 
+    sdamḵhl duus \\
+    sdamḵ-hl duus \\
+    make.noise-\Cn{} cat \\
+    \glt `The cat meowed'. (spelling from FV gigeenix.)
+\end{exe}
+
+[54:22]:
+\begin{exe} \ex 
+    \glll 
+    \textit{meow}hl duus \\
+    meow-hl duus \\
+    meow-\Cn{} cat \\
+    \glt `The cat meowed'.
+\end{exe}
+
+[54:28]:
+\begin{exe}
+    \ex \glll
+    yukwhl algyax̱ duus \\
+    yukw=hl algyax̱ duus \\
+    \Prog{}=\Cn{} language cat \\
+    \glt `The cat is speaking.'
+\end{exe}
+
+[54:36]
+\begin{exe}
+    \ex \glll
+    yukwhl ayawaatxw duus \\
+    yukw=hl aya-waatxw duus \\
+    \Prog{}=\Cn{} cry.out cat \\
+    \glt `The cat is crying, calling out, screaming.'
+\end{exe}
+
+[55:25]: Discussion of Gitksan  sign language and its revitalization.
+
+[57:34]: Once again hard to tell the voiceless -\textit{'y} but it seems to be there on a close listen.
+\begin{exe}
+    \ex \glll
+    'wii'o'y 'niin \\
+    'wii'o-'y 'niin \\
+    love-\Fsg.\Ii{} \Ssg.\Iii \\
+    \glt `I love you.'
+\end{exe}
+
+[58:18]: Numerals. HH didn't seem to recognize \textit{t'ipxaat} `two.\Anim{}.' 
+
+\begin{exe}
+    \ex[?]{\glll
+    sdamḵhl t'ipx̱aat duus \\
+    sdamḵ=hl t'ipx̱aat duus \\
+    meow=\Cn{} two.\Anim{} cat \\
+    \glt Constructed (Z); intended: `Two cats meowed'.}
+\end{exe}
+
+HH: "I think you use \textit{bag̱adil} [BDM: `two.\Hum{}.']. Sometimes people say \textit{gilbil} [BDM: `two']. It depends on who is speaking ... dialect, Nisga'a or Tsimshian ... going to be mixed." 
+
+[59:43]:
+\begin{exe}
+    \ex \glll
+    sdamḵhl bag̱adil duus \\
+    sdamḵ=hl bag̱adil duus \\
+    make.noise=\Cn{} two.\Hum{} cat \\
+    \glt `Two cats meowed'.
+\end{exe}
+
+[60:43]: 
+\begin{exe}
+    \ex[?]{\glll
+    bag̱adil sdamḵhl duus \\
+    bag̱adil sdamḵ=hl  duus \\
+     two.\Hum{} make.noise=\Cn{} cat \\
+    \glt Constructed (Z); intended: `The cat meowed twice.'}
+\end{exe}
+
+HH: "Now you're saying that one cat meows twice." Offers instead:
+
+[61:04]
+ \begin{exe}
+    \ex \glll
+    gilbil wint sdamḵhl duus tun \\
+    gilbil win-t sdamḵ=hl  duus t=xʷin \\
+     two \Comp=3.\I{}  make.noise=\Cn{} cat \Pn=\Dem.\Prox \\
+    \glt `This cat meowed twice.' Comment: "That means only one cat."
+\end{exe}
+
+Not 100\% sure about \textit{wint} here, but something like that. Doesn't sound like it's \textit{gilba} `twice.' Can't tell whether there are a couple more =\textit{hl} after \textit{gilbil} or with \textit{win}.
+
+[61:42]
+ \begin{exe}
+    \ex \glll
+    gilbil wint sdamḵhl duus dipun \\
+    gilbil win-t sdamḵ=hl  duus tip=xʷin \\
+    two \Comp=3.\I{}  make.noise=\Cn{} cat \Pn=\Dem-\Prox \\
+    \glt `These two, or these three, or all these cats... all the cats meowed twice.' 
+\end{exe}
+
+HH: "Sometimes we don't use numbers, we use \textit{dipun}, \textit{dipus}. These, those. When we see them, then we say:"
+
+[62:30] \begin{exe}
+    \ex \glll
+    duus dipus \\
+    duus tip-ust \\
+    cat \Dem-\Dist \\
+    \glt `all those cats'
+\end{exe}
+
+Couldn't really hear the \textit{t} at the end.
+
+[62:38] \begin{exe}
+    \ex \glll
+    da'mist g̱abi duus sdamḵit  \\
+    da'mist? g̱abi duus sdamḵ-it \\ 
+    how.many? \Cnt{} cat make.noise-\Sx \\
+    \glt `How many cats meowed?' Comment: "You don't see them but you hear them, so you question, `how many?'." [Check if -\textit{hl} on \textit{g̱abi}.]
+\end{exe}
+
+\textit{da’mist} is listed as `how many' in FV:Gitsenimx̱; not seeing it elsewhere. Maybe involves a contracted \textit{hinda}? Would track with e.g. \textit{Hindahl g̱abit?} `How many (are there)?', \textit{Ndahl g̱abihl hapxwin?} `How many (animals) did you trap?'. Also not hearing the \textit{t} here. Could just be something different altogether. \textit{g̱abi} `how.many' is discussed in BDM. Similarly not sure if it ends in \textit{t}.
+
+[63:--]
+
+\begin{exe}
+    \ex{\glll 
+        ga'as Hector gilbilhl duus \\
+        ga’a[-t]=s Hector gilbil=hl duus \\
+        see[3.\Ii]=\Pn{} Hector two=\Cn{} cat \\
+    \glt `Hector saw two cats.'
+    }
+\end{exe}
+
+\begin{exe}
+    \ex{\glll 
+        bag̱adil 'nis'im \\
+        bag̱adil 'nis'im? \\
+        two ??.\Iii? \\
+    \glt "there's two of them" 
+    }
+\end{exe}
+
+Sounds a bit like \textit{'nis'im} but would expect \textit{‘nidiit}?
+
+HH: \textit{gilbil} is animals or things.
+
+[66:18]
+\begin{exe}
+    \ex{\glll 
+        ga'as Hector ḵ'am gilbilhl duus \\
+        ga’a[-t]=s Hector  ḵ'am   gilbil=hl duus \\
+        see[3.\Ii]=\Pn{} Hector only two=\Cn{} cat \\
+    \glt `Hector only saw two cats.' Comment: "So there is more but I only seen two. People are trying to show me, but I still can't see it, because I'm fixed on the two that I like."
+    }
+\end{exe}
+
+\begin{exe}
+    \ex{\glll 
+        ḵ'am gilbil ga’at \\
+        ḵ'am   gilbil ga’a-t \\
+        only two=\Cn{} see-3.\Ii \\
+    \glt `only seen/seeing two'  [Check if -\textit{hl} on \textit{gilbil}.]
+    }
+\end{exe}
+
+\end{document}
+
+
