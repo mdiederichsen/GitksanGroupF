@@ -1,0 +1,64 @@
+\usepackage[margin=1in]{geometry}
+% \usepackage[backend=biber,
+% 		style=citations/lsalike,
+% 		useprefix=true,
+% 		ibidtracker=false,
+% 		firstinits=false,
+% 		giveninits=false
+% 		uniquename=mininit,
+% %		indexing=cite,
+% 		doi,
+% 		isbn,
+% 		%issn,
+% 		scacronym,
+% 		jnlcolonpages,
+% 		commathesis,
+% % 		natbib
+% 	]{biblatex} % bibliography generation
+
+\usepackage{subfiles} % subfiles
+
+\usepackage{fontspec} % unicode characters
+\setmainfont{Linux Libertine}% [ItalicFont = lmr]
+\usepackage{tipa} % typing IPA
+\usepackage{graphicx} % images
+\usepackage{amsmath, amssymb} % math
+\usepackage{unicode-math} % more math, namely \Eulerconst
+\usepackage{leipzig} % glossing abbreviations
+\usepackage[linguistics]{forest} % trees
+\usepackage{gb4e} % glossed examples
+\usepackage[expex]{nnext} % \nextx, etc. example reference commands 
+\usepackage{stmaryrd} % denotation brackets
+\usepackage{float} % force graphics positioning
+\usepackage{hyperref} % figure reference linking
+\usepackage[compress]{cleveref} % figure referencing
+\usepackage{csquotes} % close quotes
+\usepackage{longtable} % tables across pages
+\usepackage{booktabs} % hopefully nicer tables?
+\usepackage{lscape} % rotated tables
+\usepackage{parskip} % paragraph spacing
+\usepackage{ulem} % strikethrough text
+
+%% continue adding here!
+\newleipzig{cn}{cn}{common noun connective}
+\newleipzig{pn}{pn}{proper noun connective}
+\newleipzig{i}{i}{Series I person marker clitic}
+\newleipzig{ii}{ii}{Series person marker II suffix}
+\newleipzig{iii}{iii}{Series III person marker pronoun}
+\newleipzig{prep}{prep}{preposition}
+\newleipzig{prosp}{prosp}{prospective}
+\newleipzig{val}{val}{valency adjuster}
+\newleipzig{t}{t}{Big T}
+\newleipzig{hum}{hum}{hum}
+\newleipzig{anim}{anim}{animal}
+\newleipzig{attr}{attr}{attributive}
+\newleipzig{sx}{sx}{subject extraction}
+\newleipzig{cnt}{cnt.amt}{count amount}
+
+
+\MakeOuterQuote{"}
+
+\newcommand{\tsb}{\textsubbar} % combining macron below (from TIPA)
+    % can also type directly from First Voices or SIL keyboards
+
+% \addbibresource{[...].bib}

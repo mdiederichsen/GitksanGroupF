@@ -36,3 +36,11 @@ We use libertine font, make sure it's installed on your device. I used the [home
 
 Barring any dependencies that were already installed on my device, that's the entire setup!
 
+## Workflow
+
+The `transcriptions/` folder has three main components: 
+1. `sessions/`: A folder containing the LaTeX transcriptions organized by elicitation date.
+2. `main.tex`: The main document that is compiled and outputs the PDF.
+3. `preamble.tex`: Document defining packages and other stuff.
+
+When you update any individual tex file in `sessions/`, it compiles to `main.pdf`. Will have to see if this setup is reasonable once we get more files. For now, compilation time is fast.
