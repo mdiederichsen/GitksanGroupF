@@ -12,6 +12,7 @@ VS Code has am all-in-one extension LaTeX Workshop for running LaTeX. Search it 
 
 Our files use the XeLaTeX compiler. To set this up, first open the command palette (cmd + shift + P on mac), and select `Preferences: Open User Settings (JSON)`. Then, add the following to the JSON file:
 ```
+    "latex-workshop.intellisense.biblatexJSON.replace": {},
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk-xelatex",
@@ -65,6 +66,7 @@ Our files use the XeLaTeX compiler. To set this up, first open the command palet
             ]
         },
     ],
+    "latex-workshop.intellisense.citation.backend": "biblatex",
 ```
 
 We use libertine font, make sure it's installed on your device. I used the [homebrew installation site](https://formulae.brew.sh/cask/font-linux-libertine).
