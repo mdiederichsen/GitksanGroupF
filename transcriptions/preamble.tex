@@ -1,30 +1,35 @@
 \usepackage[margin=1in]{geometry}
-% \usepackage[backend=biber,
-% 		style=citations/lsalike,
-% 		useprefix=true,
-% 		ibidtracker=false,
-% 		firstinits=false,
-% 		giveninits=false
-% 		uniquename=mininit,
-% %		indexing=cite,
-% 		doi,
-% 		isbn,
-% 		%issn,
-% 		scacronym,
-% 		jnlcolonpages,
-% 		commathesis,
-% % 		natbib
-% 	]{biblatex} % bibliography generation
+
+\usepackage[backend=biber,
+		style=../citations/lsalike,
+		useprefix=true,
+		ibidtracker=false,
+		% firstinits=false, % deprecated
+		giveninits=false,
+		uniquename=mininit, 
+%		indexing=cite,
+		doi,
+		isbn,
+		%issn,
+		scacronym,
+		jnlcolonpages, 
+		commathesis,
+% 		natbib
+        sortcites=true,
+		block=ragged %  URL breaking in bibliography
+	]{biblatex} % bibliography generation
 
 \usepackage{subfiles} % subfiles
 
+\usepackage{libertineRoman}
+
 \usepackage{fontspec} % unicode characters
-\setmainfont{Linux Libertine}% [ItalicFont = lmr]
+% \setmainfont{Linux Libertine}% [ItalicFont = lmr]
 \usepackage{tipa} % typing IPA
 \usepackage{graphicx} % images
 \usepackage{amsmath, amssymb} % math
 \usepackage{unicode-math} % more math, namely \Eulerconst
-\usepackage{leipzig} % glossing abbreviations
+\usepackage[block]{leipzig} % glossing abbreviations - block format (separate section)
 \usepackage[linguistics]{forest} % trees
 \usepackage{gb4e} % glossed examples
 \noautomath
@@ -39,6 +44,8 @@
 \usepackage{lscape} % rotated tables
 \usepackage{parskip} % paragraph spacing
 \usepackage{ulem} % strikethrough text
+
+\addbibresource{../citations/GitksanGroupF.bib}
 
 %% continue adding here!
 \newleipzig{cn}{cn}{common noun connective}
@@ -64,5 +71,4 @@
 \newcommand{\tsb}{\textsubbar} % combining macron below (from TIPA)
     % can also type directly from First Voices or SIL keyboards
 
-\usepackage[backend=biber,style=authoryear]{biblatex}
-\addbibresource{../citations/GitksanGroupF.bib}
+\makeglossaries
