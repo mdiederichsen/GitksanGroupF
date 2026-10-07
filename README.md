@@ -23,13 +23,47 @@ Our files use the XeLaTeX compiler. To set this up, first open the command palet
                 "-file-line-error",
                 "%DOC%"
             ]
-        }
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "makeglossaries",
+            "command": "makeglossaries",
+            "args": [
+              "%DOCFILE%"
+            ]
+          },
     ],
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk (xelatex)",
             "tools": ["latexmk-xelatex"]
-        }
+        },
+        {
+            "name": "biber",
+            "tools": [
+                "biber"
+            ]
+        },
+        {
+            "name": "makeglossaries",
+            "tools": [
+                "makeglossaries",
+            ]
+        },
     ],
 ```
 
