@@ -27,6 +27,7 @@
 \usepackage{leipzig} % glossing abbreviations
 \usepackage[linguistics]{forest} % trees
 \usepackage{gb4e} % glossed examples
+\noautomath
 \usepackage[expex]{nnext} % \nextx, etc. example reference commands 
 \usepackage{stmaryrd} % denotation brackets
 \usepackage{float} % force graphics positioning
@@ -54,6 +55,8 @@
 \newleipzig{attr}{attr}{attributive}
 \newleipzig{sx}{sx}{subject extraction}
 \newleipzig{cnt}{cnt.amt}{count amount}
+\newleipzig{ax}{ax}{transitive subject extraction}
+
 
 
 \MakeOuterQuote{"}
@@ -61,4 +64,5 @@
 \newcommand{\tsb}{\textsubbar} % combining macron below (from TIPA)
     % can also type directly from First Voices or SIL keyboards
 
-% \addbibresource{[...].bib}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{../citations/GitksanGroupF.bib}
