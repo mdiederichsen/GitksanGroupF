@@ -8,7 +8,7 @@ LaTeX transcription files can be found in `transcriptions/`.
 
 To run LaTeX locally you have to install it on your system. (This site)[https://www.tug.org/texlive/] has links to LaTeX installation for different machines.
 
-VS Code has am all-in-one extension LaTeX Workshop for running LaTeX. Search it up in the extensions tab and install it. 
+VS Code has an all-in-one extension LaTeX Workshop for running LaTeX. Search it up in the extensions tab and install it. 
 
 Our files use the XeLaTeX compiler. To set this up, first open the command palette (cmd + shift + P on mac), and select `Preferences: Open User Settings (JSON)`. Then, add the following to the JSON file:
 ```
