@@ -12,19 +12,23 @@
 
 \pagestyle{fancyplain}
 
-\fancyhead[L]{\nouppercase{\rightmark}}
-\fancyhead[R]{\nouppercase{\leftmark}}
+
 
 \tableofcontents
 \newpage
 
-\renewcommand{\leipzigname}{}
+\lhead{}
+
+% \renewcommand{\leipzigname}{}
 % \renewcommand*{\glossaryheader}{}%
 \vspace{-3cm}
-\section*{Abbreviations}
+% \section*{Abbreviations}
 \printglossaries
-
 \newpage
+
+\fancyhead[L]{\nouppercase{\rightmark}}
+\fancyhead[R]{\nouppercase{\leftmark}}
+
 \input{sessions/2026-09-24}
 
 \newpage
